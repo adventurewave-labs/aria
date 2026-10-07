@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="aria — animated banner" width="100%"></p>
+
 # ARIA - AI Knowledge Assistant
 
 **Project ARIA** - Advanced RAG-powered knowledge assistant with intelligent document processing and natural language query capabilities.
