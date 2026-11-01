@@ -12,8 +12,8 @@ Get a local development instance running in under 30 minutes.
 
 ```bash
 # 1. Clone and enter the repo
-git clone https://github.com/marcuspat/ai-knowledge-assist.git
-cd ai-knowledge-assist
+git clone https://github.com/adventurewave-labs/aria.git
+cd aria
 
 # 2. Create a virtual environment
 python -m venv .venv

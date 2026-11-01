@@ -2,7 +2,28 @@
 
 # ARIA - AI Knowledge Assistant
 
-**Project ARIA** - Advanced RAG-powered knowledge assistant with intelligent document processing and natural language query capabilities.
+**Project ARIA** - Advanced RAG-powered knowledge assistant with intelligent document processing and natural language query capabilities. The **retrieval plane of the agentic stack**: your documents, embedded and queryable by the agents that operate your business.
+
+## 🧭 Where aria fits — the retrieval plane of the agentic stack
+
+Agents need two kinds of memory: their own (sessions) and the company's (handbooks, runbooks, policies, delivery records). aria is the second kind — a private, API-key-gated knowledge base that turns what a company already knows into grounded retrieval any agent or dashboard can call.
+
+One plane among several:
+
+| Plane | Tool | Job |
+|---|---|---|
+| Governance | [Turbo Rig](https://github.com/marcuspat/turbo-rig) *(private beta)* | DevOps tool for AI coding agents — cross-model review gate, human-held merges |
+| Rules layer | [Turbo Flow](https://github.com/marcuspat/turbo-flow) | Fail-closed gate for AI-written code |
+| Memory | turbo-brain-v2 *(private)* | Cross-session memory, served read-only over MCP |
+| **Knowledge / retrieval** | **aria (this repo)** | **Company documents → embeddings → grounded answers over an authenticated API** |
+
+This is how aria backs the agent offers of [Creando Tu Matrix](https://creandotumatrix.com) — the "Day 2" AI operations firm (ES/EN, LATAM + US):
+
+- **Línea 1 · Operación del Día 2** — aria ships with the operability floor the firm audits against: API-key auth, per-key rate limits, structured JSON logging, `/metrics`, health probes, one-step redeploy.
+- **Línea 2 · Transición agéntica** — the onboarding corpus: a team's runbooks ingested once, so every cohort agent answers from the team's own docs instead of guessing.
+- **Línea 3 · Construcción a medida** — the reference "internal tool you can't buy off the shelf": a private company-knowledge assistant, delivered live with evidence in the four-week model.
+
+Full wiring map and delivery recipes (ES/EN): [docs/CTM-AGENT-OFFERS.md](docs/CTM-AGENT-OFFERS.md).
 
 ## 🎯 Overview
 
