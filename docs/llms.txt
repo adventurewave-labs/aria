@@ -1,0 +1,10 @@
+# aria
+
+> RAG knowledge assistant — the retrieval plane of the agentic stack, backing the Creando Tu Matrix agent offers. FastAPI + LangChain + ChromaDB, API-key auth, rate limits, metrics.
+
+aria is maintained by Adventure Wave Labs (The lab for agentic developer tooling).
+
+## Links
+
+- [Landing page](https://adventurewave-labs.github.io/aria/): overview, features, FAQ
+- [Source code](https://github.com/adventurewave-labs/aria): README, issues, releases
